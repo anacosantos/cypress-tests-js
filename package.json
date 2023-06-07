@@ -1,0 +1,16 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "New project using cypress new version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ana Carolina Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "typescript": "^5.1.3"
+  }
+}

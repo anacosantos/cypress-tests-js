@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+.env
+.env.local
+.vscode
+.idea
+
+dist/
+coverage/
+story/
+
+cypress.env.json
+cypress/screenshots/
+cypress/videos/
