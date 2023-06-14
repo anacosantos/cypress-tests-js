@@ -1,0 +1,47 @@
+{
+  "dataSet1": {
+    "genderText": "Mr",
+    "password": "password1",
+    "day": "1",
+    "month": "1",
+    "years": "2021",
+    "firstName": "John",
+    "LastName": "Doe",
+    "address": "123 Main St",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipCode": "90001",
+    "mobile_number": "1234567890"
+  },
+  "dataSet2": {
+    "genderText": "Mrs",
+    "password": "password2",
+    "day": "2",
+    "month": "2",
+    "years": "2019",
+    "firstName": "Jane",
+    "LastName": "Smith",
+    "address": "456 Elm St",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York City",
+    "zipCode": "10001",
+    "mobile_number": "9876543210"
+  },
+  "dataSet3": {
+    "genderText": "Mrs",
+    "password": "password3",
+    "day": "",
+    "month": "",
+    "years": "",
+    "firstName": "",
+    "LastName": "",
+    "address": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "zipCode": "",
+    "mobile_number": ""
+  }
+}

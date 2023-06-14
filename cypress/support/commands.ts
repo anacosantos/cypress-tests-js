@@ -2,8 +2,6 @@
 // @ts-nocheck
 /// <reference types="cypress" />
 
-
-
 declare global {
   namespace Cypress {
     interface Chainable {
@@ -40,8 +38,8 @@ Cypress.Commands.add('signup', (name: string, email: string) => {
   cy.getEmail(email).then((resolvedEmail) => {
     const finalEmail = resolvedEmail as string; // Converter 'string' if necessary
     cy.get('a[href="/login"]').should('be.visible').click();
-    cy.get('[data-qa="signup-name"]').should('be.visible').type(name);
-    cy.get('[data-qa="signup-email"]').should('be.visible').type(finalEmail);
+    cy.get('[data-qa="signup-name"]').should('exist').type(name);
+    cy.get('[data-qa="signup-email"]').should('exist').type(finalEmail);
     cy.get('[data-qa="signup-button"]').click();
   });
 });

@@ -14,7 +14,8 @@ module.exports = defineConfig({
   env: {
     api_url: 'https://www.automationexercise.com/',
     mobileViewportWidthBreakpoint: 414,
-    email: 'ana@ana',
+    myName: 'Ana',
+    email: 'testersantos85@gmail.com',
     password: '12345678',
     silenceCommandLog: false,
   },

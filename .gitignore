@@ -10,5 +10,6 @@ coverage/
 story/
 
 cypress.env.json
+cypress.env
 cypress/screenshots/
 cypress/videos/
